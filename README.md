@@ -89,15 +89,15 @@ footer { margin-top: 20px; font-size: 18px; text-align: center; color: rgb(16, 2
 Displays “Multicloud with devops by VEERA” at the bottom, centered.
 
 3️⃣ Body Content
-<h1>Welcome to Multicloud with Devops by VEERA NareshIT</h1>
+<h1>ShopSmart Registration</h1>
 <form action="/dev" method="post">
-  <h2>MultiCloud devops Registration</h2>
+  <h2>Sign up to receive exclusive deals, updates, and access to our online store. Fast shipping, secure checkout, and customer satisfaction guaranteed!</h2>
   <label for="fname">First Name:</label>
   <input type="text" id="fname" name="fname" required>
   ...
   <div style="text-align: center;"><input type="submit" value="Submit"></div> 
 </form>
-<footer>Multicloud with devops by VEERA</footer>
+<footer>@ 2025 shopsmart.com</footer>
 
 
 <h1> → Page header.
@@ -190,3 +190,25 @@ name' : 'John', 'age' : '30', 'city' : 'NY
 Final string becomes:
 
 INSERT INTO veera value {'name' : 'John', 'age' : '30', 'city' : 'NY'}
+
+
+
+
+==================================================================Final Steps====================================================================
+
+1.create a Dynamodb
+
+2.craete a iam role for lamda function
+
+3.create a lamda function attach the role to the lamda function 
+
+4.deploy lamda_function.py and succcess.html and index.html
+note dont forhot to change the table name in (lamda_function)
+
+5.create api-gate-way
+
+6.create a post and get method attach the lamda to the post method 
+
+7.invoke the api-url to get the output
+
+
