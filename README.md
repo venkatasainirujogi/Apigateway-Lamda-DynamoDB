@@ -170,7 +170,7 @@ Your function:
 def insert_record(formbody):
     formbody = formbody.replace("=", "' : '")
     formbody = formbody.replace("&", "', '")
-    formbody = "INSERT INTO veera value {'" + formbody + "'}"
+    formbody = "INSERT INTO venkatsai value {'" + formbody + "'}"
 
 ✔️ Step-by-step:
 
